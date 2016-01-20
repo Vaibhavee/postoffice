@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+html {
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	line-height: normal;
+	 font-family: 'Roboto', sans-serif;
+	 background:#256591 url(../images/dark_blue_background-wallpaper-1366x768.jpg) no-repeat top;
+	 color:#fff;
+	 font-size:15px;
+	 background-size:100% 100%;
+
+        }
+
+
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+	display: block
+}
+ol, ul {
+	list-style: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+blockquote, q {
+	quotes: none
+}
+a:focus {
+	outline: none
+}
+a:hover, a:active {
+	outline: 0
+}
+a img {
+	border: 0
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+select {
+	max-width: 100%
+}
+footer p{ font-size:14px}
+hr{border-color:rgba(0,0,0,0.5) !important; margin:0}
+h1, p, h2, h3{ padding:15px}
+section{ padding:20px 0}
+#holiday-prediction h1{ font-size:35px; font-weight:700; text-transform:uppercase;font-family: 'Playfair Display', serif; }
+#holiday-prediction h2{ font-size:8em; font-weight:600; text-shadow:0 1px 0 #fff; color:#fff; padding:0;font-family: 'Playfair Display', serif;}
+#holiday-prediction h3{ font-size:4em; font-weight:600; text-shadow:0 1px 0 #fff; color:#fff; font-family: 'Playfair Display', serif;}
+#holiday-prediction{ z-index:2}
+.overlay{ position:fixed; background:rgba(0,0,0,0.4); width:100%; height:100%; z-index:-1}
+.daydate{ padding:20px 0}
+.daydate span, .tomorrowdt span{
+border-radius: 10px;
+    padding: 5px 10px;
+	background:rgba(0,0,0,0.2);
+	font-size:20px;
+	font-family: 'Playfair Display', serif;
+ }
+ ul{padding:20px 0}
+
+ input.form-control {
+  width: 200px;
+  height: 30px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+/*table td {
+  padding: 5px 13px;
+}*/
